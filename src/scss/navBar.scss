@@ -1,3 +1,4 @@
+@import "./_color";
 header {
     border: 1px solid red;
     display: flex;
@@ -10,6 +11,10 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        a {
+            color: $jiangren-green;
+        }
         button {
             display: none;
         }

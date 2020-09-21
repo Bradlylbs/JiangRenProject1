@@ -11,6 +11,9 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
+header nav a {
+  color: #2eca7f;
+}
 header nav button {
   display: none;
 }
